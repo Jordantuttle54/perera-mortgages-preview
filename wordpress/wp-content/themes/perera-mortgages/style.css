@@ -154,6 +154,7 @@ img { max-width: 100%; height: auto; }
 .pm-page-hero { padding-block: 76px 58px; background: var(--pm-ivory); }
 .pm-page-hero h1 { max-width: 900px; margin: 15px 0 16px; color: var(--pm-navy); font-size: clamp(42px, 5vw, 62px); line-height: 1; }
 .pm-page-hero p { max-width: 760px; color: var(--pm-muted); font-size: 18px; line-height: 1.6; }
+.pm-page-lead { color: var(--pm-navy); font-family: var(--pm-serif); font-size: 22px; line-height: 1.5; }
 .pm-page-content { padding-block: 56px 76px; }
 .pm-page-content h2, .pm-page-content h3 { color: var(--pm-navy); }
 .pm-page-cta { padding-block: 52px; background: var(--pm-navy); color: #fff; }
