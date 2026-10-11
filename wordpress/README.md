@@ -10,6 +10,7 @@ This directory contains a custom, full-site-editing WordPress block theme based 
 - Default page template plus mortgage-service and contact page templates.
 - WordPress design tokens in `theme.json` and responsive styles in `style.css`.
 - Existing embedded foreign-national couple image extracted from the approved prototype.
+- A self-contained `preview.html` with inline styles and its local image embedded, so it displays correctly when opened directly from a phone download. The two Pexels photographs still require an internet connection.
 
 ## Before production
 
