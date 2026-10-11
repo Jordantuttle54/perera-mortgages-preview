@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1160px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "name": "Midnight Navy", "slug": "midnight-navy", "color": "#0B1F3B" },
+        { "name": "Deep Navy", "slug": "deep-navy", "color": "#07172C" },
+        { "name": "Champagne Gold", "slug": "champagne-gold", "color": "#C9A96A" },
+        { "name": "Warm Ivory", "slug": "warm-ivory", "color": "#F8F5EE" },
+        { "name": "Charcoal", "slug": "charcoal", "color": "#2E2E2E" },
+        { "name": "Muted Slate", "slug": "muted-slate", "color": "#596576" }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fontFamilies": [
+        { "fontFamily": "Georgia, 'Times New Roman', serif", "name": "Perera Serif", "slug": "perera-serif" },
+        { "fontFamily": "Arial, sans-serif", "name": "Perera Sans", "slug": "perera-sans" }
+      ],
+      "fontSizes": [
+        { "name": "Small", "size": "0.875rem", "slug": "small" },
+        { "name": "Medium", "size": "1rem", "slug": "medium" },
+        { "name": "Large", "size": "1.25rem", "slug": "large" },
+        { "name": "Extra Large", "size": "2.5rem", "slug": "x-large" }
+      ],
+      "lineHeight": true
+    },
+    "spacing": {
+      "spacingSizes": [
+        { "name": "Small", "size": "0.75rem", "slug": "small" },
+        { "name": "Medium", "size": "1.5rem", "slug": "medium" },
+        { "name": "Large", "size": "3rem", "slug": "large" },
+        { "name": "Extra Large", "size": "5rem", "slug": "x-large" }
+      ],
+      "units": [ "px", "rem", "%", "vw" ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#FFFFFF", "text": "#162942" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--perera-sans)", "fontSize": "16px", "lineHeight": "1.6" },
+    "elements": {
+      "heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--perera-serif)", "fontWeight": "400" } },
+      "link": { "color": { "text": "#0B1F3B" } }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ],
+  "customTemplates": [
+    { "name": "page-mortgage-service", "title": "Mortgage service page", "postTypes": [ "page" ] },
+    { "name": "page-contact", "title": "Contact page", "postTypes": [ "page" ] }
+  ]
+}
